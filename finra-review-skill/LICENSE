@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2025 Doug Beeferman / Switchfin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL DISCLAIMER FOR REGULATORY COMPLIANCE TOOLS
+
+This software is provided as a productivity aid for preliminary compliance 
+review purposes only. It does not constitute legal, regulatory, or compliance 
+advice. The authors and copyright holders:
+
+1. Make no representations regarding the accuracy, completeness, or currency 
+   of any regulatory information contained herein
+
+2. Are not responsible for any compliance determinations made using this tool
+
+3. Do not warrant that use of this tool will result in regulatory compliance
+
+4. Are not liable for any regulatory actions, fines, penalties, or other 
+   consequences arising from use of this tool
+
+Users are solely responsible for:
+- Ensuring content meets all applicable regulatory requirements
+- Obtaining review by qualified compliance personnel
+- Meeting FINRA filing and recordkeeping requirements
+- Consulting legal counsel as appropriate
+
+FINRA rules, SEC regulations, and their interpretations are subject to change.
+Always verify current requirements with official regulatory sources.

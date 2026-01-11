@@ -20,6 +20,7 @@
 
 Claude Code is powerful out of the box—but these plugins take it further:
 
+- **Stay compliant** — finra-review-skill catches regulatory issues in broker-dealer marketing materials before they become problems
 - **Bridge the gap** — spec-to-ralph is the first plugin connecting GitHub Spec Kit with ralph-wiggum for seamless spec-to-implementation workflows
 - **Think better** — Use proven frameworks (SCAMPER, Question Storming) to break through creative blocks
 - **Ship faster** — Go from structured specs to autonomous coding in one command
@@ -40,6 +41,45 @@ claude plugin install spec-to-ralph@doug-plugins
 ---
 
 ## Plugins
+
+### finra-review-skill
+
+**FINRA Rule 2210 compliance review for broker-dealer marketing materials.**
+
+A specialized compliance tool that analyzes marketing content against FINRA communications rules. Identifies potential regulatory issues, provides rule citations, and suggests compliant alternatives.
+
+| Skill | Description |
+|-------|-------------|
+| `finra-review` | Analyze marketing content for FINRA Rule 2210 compliance |
+
+**What it checks:**
+- Promissory language ("guaranteed returns")
+- Unbalanced claims (benefits without risks)
+- Performance presentation standards
+- Testimonial requirements
+- Social media compliance (character limits, disclosures)
+
+**Example:**
+
+```
+You: Review this for FINRA compliance:
+"Achieve consistent, market-beating returns with our AI-driven strategies."
+
+Claude:
+Issue 1: Promissory Performance Claims
+Original Text: "Achieve consistent, market-beating returns"
+Rule Citation: FINRA Rule 2210(d)(1)(B)
+Compliance Concern: This language promises guaranteed outcomes.
+Suggested Revision: "Our AI-driven strategies seek competitive risk-adjusted
+returns. Past performance is not indicative of future results."
+Risk Level: High
+```
+
+**Use case:** Before publishing marketing materials, social media posts, or client communications, run a preliminary compliance check to identify potential FINRA violations and get suggested compliant rewrites.
+
+**⚠️ Important:** This is a review aid for preliminary compliance screening. Does not replace registered principal review, FINRA filing requirements, or legal counsel.
+
+---
 
 ### spec-to-ralph
 
@@ -171,6 +211,7 @@ claude plugin marketplace add https://github.com/sofrono44/doug-plugins
 ### Install Individual Plugins
 
 ```bash
+claude plugin install finra-review-skill@doug-plugins
 claude plugin install spec-to-ralph@doug-plugins
 claude plugin install question-storm@doug-plugins
 claude plugin install scamper@doug-plugins
