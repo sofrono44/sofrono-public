@@ -1,16 +1,16 @@
 <!-- Logo/Banner placeholder - replace with your own -->
 <div align="center">
-  <h1>doug-plugins</h1>
+  <h1>sofrono-plugins</h1>
   <p><strong>Productivity plugins for Claude Code that supercharge your development workflow</strong></p>
 
-  <a href="https://github.com/sofrono44/doug-plugins/blob/main/LICENSE">
+  <a href="https://github.com/sofrono44/sofrono-plugins/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   </a>
-  <a href="https://github.com/sofrono44/doug-plugins/stargazers">
-    <img src="https://img.shields.io/github/stars/sofrono44/doug-plugins" alt="Stars">
+  <a href="https://github.com/sofrono44/sofrono-plugins/stargazers">
+    <img src="https://img.shields.io/github/stars/sofrono44/sofrono-plugins" alt="Stars">
   </a>
-  <a href="https://github.com/sofrono44/doug-plugins/issues">
-    <img src="https://img.shields.io/github/issues/sofrono44/doug-plugins" alt="Issues">
+  <a href="https://github.com/sofrono44/sofrono-plugins/issues">
+    <img src="https://img.shields.io/github/issues/sofrono44/sofrono-plugins" alt="Issues">
   </a>
 </div>
 
@@ -32,10 +32,10 @@ Claude Code is powerful out of the box—but these plugins take it further:
 
 ```bash
 # Add the marketplace
-claude plugin marketplace add https://github.com/sofrono44/doug-plugins
+claude plugin marketplace add https://github.com/sofrono44/sofrono-plugins
 
 # Install a plugin
-claude plugin install spec-to-ralph@doug-plugins
+claude plugin install spec-to-ralph@sofrono-plugins
 ```
 
 ---
@@ -205,16 +205,16 @@ Ready to explore Combine? (yes/skip)
 ### Add the Marketplace
 
 ```bash
-claude plugin marketplace add https://github.com/sofrono44/doug-plugins
+claude plugin marketplace add https://github.com/sofrono44/sofrono-plugins
 ```
 
 ### Install Individual Plugins
 
 ```bash
-claude plugin install finra-review-skill@doug-plugins
-claude plugin install spec-to-ralph@doug-plugins
-claude plugin install question-storm@doug-plugins
-claude plugin install scamper@doug-plugins
+claude plugin install finra-review-skill@sofrono-plugins
+claude plugin install spec-to-ralph@sofrono-plugins
+claude plugin install question-storm@sofrono-plugins
+claude plugin install scamper@sofrono-plugins
 ```
 
 ### Verify Installation
@@ -232,7 +232,7 @@ claude plugin list
 - [ ] Export workshop sessions to markdown
 - [ ] Team sharing for brainstorm outputs
 
-Have an idea? [Open an issue](https://github.com/sofrono44/doug-plugins/issues)!
+Have an idea? [Open an issue](https://github.com/sofrono44/sofrono-plugins/issues)!
 
 ---
 
